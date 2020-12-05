@@ -47,17 +47,16 @@ void testTree(const string& nameFile){
     assert((treeN==treeConstryktor));
 }
 
-//int main(int argc, char *argv[])
-//{
-//    QApplication a(argc, argv);
-//    MainWindow w;
-//    w.show();
-//    return a.exec();
-//}
-
-int main(){
-    testTree("/Users/kirillpadalica/HSE/2nd_year/OOP/Laboratory/Lab2/testData.txt");
-    cout << "Успешно!" << endl;
-
-    return 0;
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+    return a.exec();
 }
+
+//int main(){
+//    testTree("/Users/kirillpadalica/HSE/2nd_year/OOP/Laboratory/Lab2/testData.txt");
+//    cout << "Успешно!" << endl;
+//    return 0;
+//}
